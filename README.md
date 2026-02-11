@@ -1,4 +1,4 @@
-# 📚 Casa do Código — Catálogo de Livros
+# 📚 Alura Books — Catálogo de Livros
 Aplicação web desenvolvida em **JavaScript moderno (ES6+)** que consome uma API de livros, aplica regras de negócio e permite visualizar, filtrar e ordenar os dados dinamicamente utilizando métodos funcionais de arrays.
 
 O projeto tem como principal objetivo praticar e demonstrar o uso dos métodos:
@@ -103,6 +103,14 @@ Arquivo principal responsável por:
     - Iniciar a aplicação
     - Resgatar eventos de interface
     - Orquestrar funcionalidades
+
+---
+
+## 🌐 Acesso ao Projeto
+Você pode visualizar e testar o projeto facilmente pelo link:
+
+- **👉 Deploy no GitHub Pages:**
+[Acesse o projeto](https://mguilhermegomes.github.io/alura-books-js/)
 
 ---
 
