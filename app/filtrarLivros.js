@@ -1,5 +1,9 @@
 import exibirValorTotalLivrosDisponiveis from "./exibirValorTotalLivrosDisponiveis.js";
 
+const elementoValorTotalLivros = document.getElementById(
+  "valor_total_livros_disponiveis",
+);
+
 function filtrarPorCategoria(livro, categoria) {
     return livro.categoria === categoria;
 }
@@ -15,7 +19,9 @@ export function filtrarLivro(listaLivros, categoria) {
       : listaLivros.filter((livro) => filtrarPorCategoria(livro, categoria));
 
   if (categoria === "disponivel") {
-    exibirValorTotalLivrosDisponiveis(livrosFiltrados);
+    exibirValorTotalLivrosDisponiveis(livrosFiltrados, elementoValorTotalLivros);
+  } else {
+    elementoValorTotalLivros.style.display = "none";
   }
 
   return livrosFiltrados;

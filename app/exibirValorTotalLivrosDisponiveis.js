@@ -1,9 +1,6 @@
-const elementoValorTotalLivros = document.getElementById(
-  "valor_total_livros_disponiveis",
-);
 const valorTotalLivros = document.getElementById("valor");
 
-function exibirValorTotalLivrosDisponiveis(livrosDisponiveis) {
+function exibirValorTotalLivrosDisponiveis(livrosDisponiveis, elementoValorTotalLivros) {
   const livrosDisponiveisValorTotal = livrosDisponiveis.reduce(
     (acc, livro) => acc + livro.preco,
     0,
