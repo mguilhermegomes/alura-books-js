@@ -110,12 +110,12 @@ Arquivo principal responsável por:
 
 ### 1. Clonar o repositório
 ```bash
-git clone <url-do-repositorio>.git
+git clone https://github.com/mguilhermegomes/alura-books-js.git
 ```
 
 ### 2. Acessar a pasta do projeto
 ```bash
-cd nome-do-projeto
+cd alura-books-js
 ```
 
 ### 3. Abrir no navegador
