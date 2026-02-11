@@ -75,30 +75,30 @@ Uso de ``map``, ``sort`` e òperador spread (``...``) para evitar alteração di
 
 ## 📌 Descrição dos Módulos
 
-- **resgatarListaDeLivros**  
+- **resgatarListaDeLivros.js**  
 Responsável por:
     - Consumir API de Livros
     - Tratar erros de requisição
     - Aplicar desconto nos livros retornados
 
-- **aplicarDescontoLivro**  
+- **aplicarDescontoLivro.js**  
 Aplica desconto percentual em todos os livros utilizando ``map``.
 
-- **filtrarLivro**  
+- **filtrarLivro.js**  
 Filtra livros por:
     - Categoria
     - Disponibilidade
 
-- **ordenarLivroPorPreco**  
+- **ordenarLivroPorPreco.js**  
 Ordena os livros pelo valor utilizando ``sort``.
 
-- **exibirValorTotalLivrosDisponiveis**  
+- **exibirValorTotalLivrosDisponiveis.js**  
 Calcula o valor total dos livros disponíveis utilizando ``reduce``.
 
-- **exibirLivros**  
+- **exibirLivros.js**  
 Responsável pela renderização dos livros no DOM.
 
-- **main**  
+- **main.js**  
 Arquivo principal responsável por:
     - Iniciar a aplicação
     - Resgatar eventos de interface
